@@ -1,0 +1,58 @@
+@media only screen and (min-width:200px) and (max-width:560px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap:5px;
+        padding: 10px;
+        
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address h2{
+        font-size: 14px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .buttonbox{
+        position: fixed;
+        bottom: 0px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .bannersection{
+        display: none;
+    }
+    .itemsbox{
+        flex-direction: column;
+    }
+   .items{
+    flex-basis: 45%;
+   }
+   .snacks{
+    padding: 0px 10px;
+   }
+   .snacksitems{
+    flex-basis: 47%;
+   
+    margin-bottom: 25px;
+
+   }
+   .footer-mid{
+    
+    flex-direction: column;
+    margin-left: -40px;
+    
+   }
+  .footer-mid-left h2{
+    text-align: center;
+  }
+  .mid-right-heading{
+    justify-content: center;
+  }
+}
